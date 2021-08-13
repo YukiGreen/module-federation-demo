@@ -1,0 +1,12 @@
+import { createApp } from 'vue'
+
+function mount(el) {
+}
+
+if (process.env.NODE_ENV === 'development') {
+  const el = document.querySelector('#dev-{{applicationName}}')
+
+  el && mount(el)
+}
+
+export { mount }

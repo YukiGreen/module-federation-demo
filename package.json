@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "plop": "^2.7.4"
+  },
+  "scripts": {
+    "plop": "plop"
+  }
+}
