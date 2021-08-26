@@ -1,8 +1,11 @@
 import React, { useEffect, useRef } from 'react';
-import { obj } from 'appVue2/appVue2';
+// import { obj } from 'appVue2/appVue2';
 import { useHistory } from 'react-router-dom';
 
 export default function MumeApp() {
+  import('appVue2/appVue2').then(res => {
+    const test = JSON.stringify(res.obj);
+  });
   // const ref = useRef();
   // const history = useHistory();
   // useEffect(() => {
@@ -10,6 +13,6 @@ export default function MumeApp() {
   // }, []);
 
   // return <div ref={ref}></div>;
-  const test = JSON.stringify(obj);
+  
   return <div>aaa</div>
 }

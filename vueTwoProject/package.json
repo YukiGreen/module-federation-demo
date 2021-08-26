@@ -2,7 +2,8 @@
   "name": "vueTwoProject",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "build": "rimraf dist && webpack --config webpack.config.js"
   },
   "dependencies": {
     "vue": "^2.6.11"

@@ -1,0 +1,60 @@
+{
+  "name": "vue-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --config webpack.dev.js",
+    "build": "rimraf dist && webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjisme/vue-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yjisme/vue-webpack/issues"
+  },
+  "homepage": "https://github.com/yjisme/vue-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "buffer": "^6.0.3",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "crypto-browserify": "^3.12.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^5.3.2",
+    "https-browserify": "^1.0.0",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "mini-css-extract-plugin": "^2.2.0",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "timers-browserify": "^2.0.12",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.4",
+    "element-ui": "^2.15.5",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "process": "^0.11.10",
+    "velocity-animate": "^1.5.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.4.0"
+  }
+}

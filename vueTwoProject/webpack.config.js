@@ -6,9 +6,15 @@ const packageJson = require("./package.json")
 module.exports = {
   mode: "development",
   entry: "./src/index.js",
+  // 默认入口文件为main，可改名，比如app
+  // output出口文件名不能和模块联邦导出的filename一样，否则报错
+  // entry: {
+  //   app: "./src/index.js"
+  // },
   output: {
-    publicPath: "http://localhost:8993/",
-    filename: "[name].[contentHash].js"
+    publicPath: "dist/",
+    // publicPath: "http://localhost:8993/",
+    filename: "[name].[chunkhash].js"
   },
   resolve: {
     extensions: [".js", ".vue"]
