@@ -1,5 +1,5 @@
 {
-  "name": "vue-webpack",
+  "name": "app2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yjisme/vue-webpack.git"
+    "url": "git+https://github.com/YukiGreen/app2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yjisme/vue-webpack/issues"
+    "url": "https://github.com/YukiGreen/app2/issues"
   },
-  "homepage": "https://github.com/yjisme/vue-webpack#readme",
+  "homepage": "https://github.com/YukiGreen/app2#readme",
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "babel-loader": "^8.1.0",
